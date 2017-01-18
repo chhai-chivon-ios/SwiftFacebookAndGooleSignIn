@@ -1,0 +1,6 @@
+framework module Pods_FacebookGoogleSignIn {
+  umbrella header "Pods-FacebookGoogleSignIn-umbrella.h"
+
+  export *
+  module * { export * }
+}

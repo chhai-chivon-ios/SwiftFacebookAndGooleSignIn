@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F3A32C51E2F5089008EBDE2 /* FacebookProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A32C41E2F5089008EBDE2 /* FacebookProfile.swift */; };
+		6F9902E61E2F09E800F7A915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9902E51E2F09E800F7A915 /* AppDelegate.swift */; };
+		6F9902E81E2F09E800F7A915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9902E71E2F09E800F7A915 /* ViewController.swift */; };
+		6F9902EB1E2F09E800F7A915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F9902E91E2F09E800F7A915 /* Main.storyboard */; };
+		6F9902ED1E2F09E800F7A915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9902EC1E2F09E800F7A915 /* Assets.xcassets */; };
+		6F9902F01E2F09E800F7A915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F9902EE1E2F09E800F7A915 /* LaunchScreen.storyboard */; };
+		6F9902F91E2F0BA500F7A915 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F9902F81E2F0BA500F7A915 /* GoogleService-Info.plist */; };
+		6F9902FB1E2F197700F7A915 /* GoogleProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9902FA1E2F197700F7A915 /* GoogleProfile.swift */; };
+		94D50E666670402417944DAF /* Pods_FacebookGoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272670A07DFCBDC9ED2AAF66 /* Pods_FacebookGoogleSignIn.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		272670A07DFCBDC9ED2AAF66 /* Pods_FacebookGoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookGoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3082116ADC360DDBDD6014F1 /* Pods-FacebookGoogleSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookGoogleSignIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookGoogleSignIn/Pods-FacebookGoogleSignIn.release.xcconfig"; sourceTree = "<group>"; };
+		6F3A32C41E2F5089008EBDE2 /* FacebookProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookProfile.swift; sourceTree = "<group>"; };
+		6F9902E21E2F09E800F7A915 /* FacebookGoogleSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookGoogleSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9902E51E2F09E800F7A915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F9902E71E2F09E800F7A915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F9902EA1E2F09E800F7A915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F9902EC1E2F09E800F7A915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F9902EF1E2F09E800F7A915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F9902F11E2F09E800F7A915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = FacebookGoogleSignIn/Info.plist; sourceTree = "<group>"; };
+		6F9902F81E2F0BA500F7A915 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F9902FA1E2F197700F7A915 /* GoogleProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleProfile.swift; sourceTree = "<group>"; };
+		6F9902FC1E2F3C3B00F7A915 /* FacebookGoogleSignIn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FacebookGoogleSignIn.entitlements; sourceTree = "<group>"; };
+		8B598E1C02D2C926D478096F /* Pods-FacebookGoogleSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookGoogleSignIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookGoogleSignIn/Pods-FacebookGoogleSignIn.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F9902DF1E2F09E800F7A915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D50E666670402417944DAF /* Pods_FacebookGoogleSignIn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F9902D91E2F09E800F7A915 = {
+			isa = PBXGroup;
+			children = (
+				6F9902F71E2F0B0900F7A915 /* Support Files */,
+				6F9902E41E2F09E800F7A915 /* FacebookGoogleSignIn */,
+				6F9902E31E2F09E800F7A915 /* Products */,
+				D0B0754E7B679B10BEDE3047 /* Pods */,
+				D9BD726737D0E4FD31CA3B6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F9902E31E2F09E800F7A915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F9902E21E2F09E800F7A915 /* FacebookGoogleSignIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F9902E41E2F09E800F7A915 /* FacebookGoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				6F9902FC1E2F3C3B00F7A915 /* FacebookGoogleSignIn.entitlements */,
+				6F9902E51E2F09E800F7A915 /* AppDelegate.swift */,
+				6F9902E71E2F09E800F7A915 /* ViewController.swift */,
+				6F9902E91E2F09E800F7A915 /* Main.storyboard */,
+				6F9902EC1E2F09E800F7A915 /* Assets.xcassets */,
+				6F9902EE1E2F09E800F7A915 /* LaunchScreen.storyboard */,
+				6F9902FA1E2F197700F7A915 /* GoogleProfile.swift */,
+				6F3A32C41E2F5089008EBDE2 /* FacebookProfile.swift */,
+			);
+			path = FacebookGoogleSignIn;
+			sourceTree = "<group>";
+		};
+		6F9902F71E2F0B0900F7A915 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9902F11E2F09E800F7A915 /* Info.plist */,
+				6F9902F81E2F0BA500F7A915 /* GoogleService-Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		D0B0754E7B679B10BEDE3047 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B598E1C02D2C926D478096F /* Pods-FacebookGoogleSignIn.debug.xcconfig */,
+				3082116ADC360DDBDD6014F1 /* Pods-FacebookGoogleSignIn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9BD726737D0E4FD31CA3B6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				272670A07DFCBDC9ED2AAF66 /* Pods_FacebookGoogleSignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F9902E11E2F09E800F7A915 /* FacebookGoogleSignIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9902F41E2F09E800F7A915 /* Build configuration list for PBXNativeTarget "FacebookGoogleSignIn" */;
+			buildPhases = (
+				D8700E96012E78BE23A92110 /* [CP] Check Pods Manifest.lock */,
+				6F9902DE1E2F09E800F7A915 /* Sources */,
+				6F9902DF1E2F09E800F7A915 /* Frameworks */,
+				6F9902E01E2F09E800F7A915 /* Resources */,
+				557079CF5BC576019B08D05E /* [CP] Embed Pods Frameworks */,
+				30F4AE0CC5032086E0546DFB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookGoogleSignIn;
+			productName = FacebookGoogleSignIn;
+			productReference = 6F9902E21E2F09E800F7A915 /* FacebookGoogleSignIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F9902DA1E2F09E800F7A915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tola Pheng";
+				TargetAttributes = {
+					6F9902E11E2F09E800F7A915 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 49LV7XUPR4;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6F9902DD1E2F09E800F7A915 /* Build configuration list for PBXProject "FacebookGoogleSignIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F9902D91E2F09E800F7A915;
+			productRefGroup = 6F9902E31E2F09E800F7A915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F9902E11E2F09E800F7A915 /* FacebookGoogleSignIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F9902E01E2F09E800F7A915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9902F01E2F09E800F7A915 /* LaunchScreen.storyboard in Resources */,
+				6F9902F91E2F0BA500F7A915 /* GoogleService-Info.plist in Resources */,
+				6F9902ED1E2F09E800F7A915 /* Assets.xcassets in Resources */,
+				6F9902EB1E2F09E800F7A915 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30F4AE0CC5032086E0546DFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookGoogleSignIn/Pods-FacebookGoogleSignIn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		557079CF5BC576019B08D05E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookGoogleSignIn/Pods-FacebookGoogleSignIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8700E96012E78BE23A92110 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F9902DE1E2F09E800F7A915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9902FB1E2F197700F7A915 /* GoogleProfile.swift in Sources */,
+				6F9902E81E2F09E800F7A915 /* ViewController.swift in Sources */,
+				6F9902E61E2F09E800F7A915 /* AppDelegate.swift in Sources */,
+				6F3A32C51E2F5089008EBDE2 /* FacebookProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F9902E91E2F09E800F7A915 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9902EA1E2F09E800F7A915 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F9902EE1E2F09E800F7A915 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9902EF1E2F09E800F7A915 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F9902F21E2F09E800F7A915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F9902F31E2F09E800F7A915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F9902F51E2F09E800F7A915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B598E1C02D2C926D478096F /* Pods-FacebookGoogleSignIn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FacebookGoogleSignIn/FacebookGoogleSignIn.entitlements;
+				DEVELOPMENT_TEAM = 49LV7XUPR4;
+				INFOPLIST_FILE = FacebookGoogleSignIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knongdai.FacebookGoogleSignIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6F9902F61E2F09E800F7A915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3082116ADC360DDBDD6014F1 /* Pods-FacebookGoogleSignIn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FacebookGoogleSignIn/FacebookGoogleSignIn.entitlements;
+				DEVELOPMENT_TEAM = 49LV7XUPR4;
+				INFOPLIST_FILE = FacebookGoogleSignIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knongdai.FacebookGoogleSignIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F9902DD1E2F09E800F7A915 /* Build configuration list for PBXProject "FacebookGoogleSignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9902F21E2F09E800F7A915 /* Debug */,
+				6F9902F31E2F09E800F7A915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9902F41E2F09E800F7A915 /* Build configuration list for PBXNativeTarget "FacebookGoogleSignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9902F51E2F09E800F7A915 /* Debug */,
+				6F9902F61E2F09E800F7A915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F9902DA1E2F09E800F7A915 /* Project object */;
+}
